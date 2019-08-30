@@ -1,0 +1,19 @@
+.pagination {
+
+}
+
+.pagination .page-item {
+
+}
+
+.pagination .page-item a {
+    border: 0px;
+}
+
+.pagination .page-item.active .page-link {
+    border: 0;
+    background: transparent;
+    color: black;
+    border-bottom: 3px solid #78bd4d;
+    font-weight: bold;
+}

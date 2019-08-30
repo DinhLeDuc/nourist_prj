@@ -1,0 +1,633 @@
+header {
+    background: #fff;
+}
+#nav-menu {
+    padding: 0
+}
+#nav-menu li a {
+    color: #222;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+#nav-menu li a.nav-link {
+    height: 55px;
+}
+#nav-menu li a.dropdown-toggle {
+    padding: 10px;
+}
+#nav-menu .navbar-nav li a:hover,
+#nav-menu .navbar-nav li a:focus{
+    border-bottom: 5px solid #77bf4e96;
+}
+#nav-menu .navbar-nav li.active a,
+#nav-menu .navbar-nav li.active a:hover,
+#nav-menu .navbar-nav li.active a:focus{
+    border-bottom: 5px solid #78bf4d;
+}
+#nav-menu .dropdown-menu {
+    min-width: 200px;
+}
+#nav-menu .dropdown-menu a {
+    padding: 8px;
+}
+.banner-wrapper .banner-slider img.banner-top{
+    width: 100%;
+}
+.filter-content .filter-form-1 .form-control-feedback{
+    right: 15px;
+    color: #969696;
+}
+.filter-content{
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    z-index: 1000;
+    -webkit-box-shadow: 0px 3px 10px rgba(34, 25, 25, 0.4);
+    -moz-box-shadow: 0px 3px 10px rgba(34, 25, 25, 0.4);
+    -ms-box-shadow: 0px 3px 10px rgba(34, 25, 25, 0.4);
+    -o-box-shadow: 0px 3px 10px rgba(34, 25, 25, 0.4);
+    box-shadow: 0px 3px 10px rgba(34, 25, 25, 0.4);
+}
+.margin-0{
+    margin: 0px !important;
+}
+.padding-0{
+    padding: 0px !important;
+}
+.p-left-0{
+    padding-left: 0px !important;
+}
+.p-right-0{
+    padding-right: 0px !important;
+}
+.width-50{
+    width: 50% !important;
+}
+.filter-content .btn-search{
+    background: #7bb954;
+    width: 120px;
+    color: #fff;
+    margin: auto;
+}
+.filter-content .filter-form-2{
+    /* margin: 10px 0px 0px 0px; */
+}
+.item-meal {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 0;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 5px 0px 10px 0px;
+}
+
+/* Hide the browser's default radio button */
+.item-meal input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.item-meal .checkmark {
+    border: 1px solid #7bb955;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.item-meal:hover input ~ .checkmark {
+    background-color: #7bb9552e;
+}
+
+/* When the radio button is checked, add a blue background */
+.item-meal input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.item-meal input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.item-meal .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #7bb954;
+}
+.item-meal .title-meal{
+    height: 25px;
+    color: #fff;
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: normal;
+    padding-top: 2px;
+}
+.item-meal .title-meal i{
+    padding: 0px 2px;
+}
+
+.item-meal .title-meal img{
+    max-width: 20px;
+    max-height: 15px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+}
+
+.item-meal.meal-1 .title-meal{
+    background: #f97a8c;
+}
+.item-meal.meal-2 .title-meal{
+    background: #62bb9c;
+}
+.item-meal.meal-3 .title-meal{
+    background: #53375d;
+}
+#content-body .content-search{margin-top: 30px;}
+#content-body .content-search .tab-filter{
+    padding-left: 0px;
+}
+.content-search .tab-filter .map-div {position: relative;margin-bottom: 20px;}
+.content-search .tab-filter .map-div .img-map{width: 100%;}
+.content-search .tab-filter .map-div .btn-map{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 0;
+    padding: 10px 20px;
+    background: #eee;
+}
+.content-search .tab-filter .filter-best,
+.content-search .tab-filter .filter-detail{
+    padding: 15px;background: #eee;
+    margin-bottom: 20px;
+}
+
+.content-search .tab-filter .filter-best .title .text-label,
+.content-search .tab-filter .filter-detail .title .text-label{
+    font-weight: bold;
+    padding-top: 5px;
+}
+.content-search .tab-filter .filter-best .title .text-label-1,
+.content-search .tab-filter .filter-detail .title .text-label-1{
+    padding-top: 5px;
+}
+.content-search .tab-filter .filter-best .item-sort{
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px;
+}
+.content-search .tab-filter .filter-best .item-sort .item{
+    display: inline-block;
+    width: calc(50% - 10px);
+    padding: 5px 0px;
+}
+.content-search .tab-filter .filter-best .item-sort .item input{
+    margin-right: 10px;
+}
+.line-clear{
+    margin: 10px 0px;
+    border: 1px solid #d4d4d4;
+}
+.filter-detail .item-filter{
+    margin-bottom: 20px;
+}
+.filter-detail .item-filter .title{
+    position: relative;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.filter-detail .item-filter .title i{
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.filter-detail .item-filter .price{
+    position: relative;
+    display: flex;
+}
+.filter-detail .item-filter .price:before{
+    background: #dedede;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: 1;
+}
+.filter-detail .item-filter .price .start-money{
+    width: 121px;
+    left: 0;
+}
+
+.filter-detail .item-filter .price .start-money,
+.filter-detail .item-filter .price .end-money{
+    padding: 5px 0px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background: #eee;
+    z-index: 9;
+    text-align: center;
+}
+.filter-detail .item-filter .price .end-money{
+    width: 120px;
+    position: absolute;
+    right: 0;
+}
+.filter-detail .item-filter .rating div input,
+.filter-detail .item-filter .type div input{
+    margin-right: 10px;
+}
+.filter-detail .item-filter .rating i{
+    color: #ffc413;
+    padding: 2px;
+    font-size: 18px;
+}
+.filter-detail .item-filter .type div{
+    padding: 5px 0px;
+}
+
+.content-search .tab-result{
+
+}
+.content-search .tab-result .tilte-result{
+    margin-bottom: 15px;
+}
+.content-search .tab-result .tilte-result .text-label{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+.content-search .tab-result .tilte-result .text-label-1{
+    padding-top: 5px;
+}
+.content-search .tab-result .list-result{
+
+}
+.content-search .tab-result .item-result{
+    display: flex;
+    background: #eee;
+    margin: 20px 0px;
+}
+.content-search .tab-result .item-result img.img-food{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-search .tab-result .item-result .detail{
+    background: #eee;
+}
+.content-search .tab-result .item-result .detail .name-meal {
+    margin: 10px 0px;
+}
+.content-search .tab-result .item-result .detail .name-meal a {
+    font-weight: bold;
+    color: #222222
+}
+.content-search .tab-result .item-result .detail .name-meal a:hover {
+    text-decoration: none;
+    color: blue;
+}
+.content-search .tab-result .item-result .detail .info-host{
+    display: flex;
+}
+.content-search .tab-result .item-result .detail .info-host .avatar .img-avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.content-search .tab-result .item-result .detail .info-host .text {
+    /* display: inline-block; */
+    margin-left: 15px;
+    /* position: absolute; */
+    /* margin: auto 0px auto 15px; */
+}
+.content-search .tab-result .item-result .detail .info-host .text .name,
+.content-search .tab-result .item-result .detail .info-host .text .address{
+    padding: 5px 0px;
+}
+.content-search .tab-result .item-result .detail .info-host .text .name a {
+    color: #222222;
+}
+.content-search .tab-result .item-result .detail .info-host .text .name a:hover {
+    color: blue;
+    text-decoration: none;
+}
+.content-search .tab-result .item-result .detail .info-host .text .address i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+.content-search .tab-result .item-result .detail .des-food{
+    padding: 15px 0px;
+}
+.content-search .tab-result .item-result .info-course{
+    display: flex;
+    margin: 5px 0px;
+}
+.content-search .tab-result .item-result .info-course div{
+
+}
+.content-search .tab-result .item-result .info-course div i{
+
+}
+.content-search .tab-result .item-result .rate-type{
+    display: flex;
+    margin: 15px 0px 20px 0px;
+}
+.item-result .rate-type .rate i{
+    color: #ffc413;
+    font-size: 16px;
+    padding: 2px;
+}
+.item-result .rate-type .type{
+    /* display: inline-block; */
+    /* display: flex; */
+}
+.item-result .rate-type .type .meal{
+    display: inline;
+    /* width: 36px; */
+    text-align: center;
+    background: #ccc;
+    float: right;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+.item-result .rate-type .type .meal img{
+    max-width: 20px;
+    max-height: 15px;
+}
+.footer-content{
+    background: #f4f4f4;
+    padding: 20px;
+    padding-bottom: 35px;
+}
+.footer-content .ft-logo{
+
+}
+.footer-content .ft-logo img{
+    max-width: 150px;
+}
+.footer-content .ft-links{
+
+}
+.footer-content .ft-links ul{
+
+}
+.footer-content .ft-links ul li a {
+    font-weight: bold;
+    color: #000;
+}
+.footer-content .ft-input i{
+    right: 25px;
+    top: 40px;
+    position: absolute;
+}
+.footer-content .ft-icon{
+
+}
+.footer-content .ft-icon .flex-center{
+
+}
+.footer-content .ft-icon .flex-center i{
+    margin: 5px;
+}
+@media (max-width: 991px) {
+    #content-body .content-search,
+    .content-search .tab-result .item-result .img-result,
+    #content-body .content-search .tab-filter,
+    .content-search .tab-result{
+        padding: 0px;
+    }
+    .content-search .tab-result .item-result,
+    .filter-content {
+        display: block;
+    }
+}
+
+/*   css Home index  */
+.content-index .info-app{
+    padding: 0px 30px;
+}
+.content-index .info-app .title{
+    
+}
+.content-index h4.title{
+    padding-top: 20px;
+    font-weight: bold;
+}
+.content-index .info-app .summary-app{
+    padding: 20px 0px;
+}
+.content-index .info-app .logo-app{
+    text-align: center;
+    width: 120px;
+    margin: auto;
+    border-top: 2px solid #000;
+}
+.content-index .info-app .logo-app img{
+    width: 70px;
+    margin: 10px 0px 15px 0px;
+}
+.content-index .info-app .more-info{
+    text-align: center;
+}
+.content-index .info-app .more-info button.btnApp{
+    background: #7bb954;
+    width: 130px;
+    color: #fff;
+    margin: auto;
+}
+
+.suggest-list{
+
+}
+.suggest-list h4.title{
+    padding: 20px 15px 10px 15px;
+    font-weight: bold;
+}
+.suggest-list .food-list{
+}
+.suggest-list .food-list .best-food,
+.suggest-list .host-list .best-host{background: #fff;margin-bottom: 20px;padding: 0px;}
+.suggest-list .food-list .best-food .image-food{
+
+}
+.suggest-list .food-list .best-food .image-food a{
+
+}
+.suggest-list .food-list .best-food .image-food a img,
+.suggest-list .host-list .best-host .image-food a img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.suggest-list .food-list .best-food .detail{}
+.suggest-list  .food-list .best-food .detail .name-meal {
+    margin: 15px 0px;
+    height: 32px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: -webkit-box;
+    line-height: 16px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.suggest-list  .food-list .best-food .detail .name-meal a {
+    font-weight: bold;
+    color: #222222
+}
+.suggest-list  .food-list .best-food .detail .name-meal a:hover {
+    text-decoration: none;
+    color: #324f7b;
+}
+.suggest-list  .food-list .best-food .detail .info-host{
+    display: flex;
+}
+.suggest-list  .food-list .best-food .detail .info-host .avatar .img-avatar{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.suggest-list  .food-list .best-food .detail .info-host .text {
+    /* display: inline-block; */
+    margin-left: 15px;
+    /* position: absolute; */
+    /* margin: auto 0px auto 15px; */
+}
+.suggest-list .detail .info-host .text .name{
+
+}
+.suggest-list .detail .info-host .text .address{
+    /* padding: 5px 0px; */
+    font-size: 12px;
+}
+.suggest-list .detail .info-host .text .name a {
+    color: #222222;
+}
+.suggest-list .detail .info-host .text .name a:hover {
+    color: #324f7b;
+    text-decoration: none;
+}
+.suggest-list .detail .info-host .text .address i{
+    margin-right: 5px;
+    font-size: 14px;
+}
+.suggest-list  .food-list .best-food .detail .des-food{
+    margin: 10px 0px;
+    font-size: 12px;
+    height: 50px;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    display: -webkit-box;
+    line-height: 16px;     /* fallback */
+          /* fallback */
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.suggest-list  .food-list .best-food .info-course{
+    display: flex;
+    margin: 5px 0px;
+    font-size: 12px;
+}
+.suggest-list  .food-list .best-food .info-course div{
+
+}
+.suggest-list  .food-list .best-food .info-course div i{
+
+}
+.suggest-list .rate-type{
+    display: flex;
+    margin: 5px 0px;
+}
+.suggest-list .rate-type .rate{
+    color: #22b4ca;
+ }
+.suggest-list .rate-type .rate i{
+}
+.suggest-list .rate-type .type{
+    /* display: inline-block; */
+    /* display: flex; */
+    text-align: right;
+}
+.suggest-list .rate-type .type .meal{
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    /* float: right; */
+    /* margin-left: 5px; */
+    border-radius: 20px;
+    /* padding: 3px 20px; */
+}
+.meal.meal-1{background: #fee4e8;}
+.meal.meal-1.active{background: #f97a8c;}
+.meal.meal-2{background: #e0f1eb;}
+.meal.meal-2.active{background: #62bb9c;}
+.meal.meal-3{background: #ddd7df;}
+.meal.meal-3.active{background: #53375d;}
+.suggest-list .rate-type .type .meal img{
+    max-width: 15px;
+    max-height: 12px;
+}
+.suggest-list  .host-list .best-host .detail .info-host{
+    margin: 5px 0px;
+}
+.suggest-list  .host-list .best-host .detail .info-host .name{
+    font-weight: bold;
+}
+.suggest-list .load-more{
+    
+padding: 0px 15px 0px 15px;
+}
+.suggest-list .load-more a.btnMore{
+    
+color: #7bb954;
+}
+.suggest-list .load-more a.btnMore:hover,
+.suggest-list .load-more a.btnMore:focus{
+    
+color: #7bb954;
+    
+text-decoration: none;
+}
+@media (max-width: 991px) and (min-width: 768px) {
+}
+@media (max-width: 767px) and (min-width: 576px){
+    .suggest-list .food-list .best-food .image-food a img{
+        height: 100%;
+    }
+    .suggest-list .food-list .best-food,
+    .suggest-list .host-list .best-host{
+        display: flex;
+    }
+}

@@ -1,0 +1,629 @@
+.meal-detail {
+    margin-top: 20px;
+    margin: 20px 10px 10px 10px;
+}
+
+.meal-detail .title > label {
+    font-size: 17px;
+    width: 100%;
+}
+
+.meal-detail label.sub-title {
+    width: 100%;
+}
+
+.meal-detail .divider {
+    width: 100%;
+    margin: 15px 0px;
+    border: 1px solid #8c8c8c;
+}
+
+.meal-detail .meal-description {
+
+}
+
+.meal-detail .meal-description .title {
+
+}
+
+.meal-detail .meal-description .position {
+}
+
+.meal-detail .meal-description .position .clock,
+.meal-detail .meal-description .position .place {
+    margin-bottom: 10px;
+}
+
+.meal-detail .meal-description .position .clock img,
+.meal-detail .meal-description .position .place img {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-description .position .clock span,
+.meal-detail .meal-description .position .place span {
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-description .content {
+    position: relative;
+}
+
+.meal-detail .meal-description .content .description-container {
+    display: inline-block;
+    width: calc(100% - 124px);
+    vertical-align: top;
+}
+
+.meal-detail .meal-description .content .description-container .description {
+    width: 100%;
+    word-break: break-word;
+}
+
+.meal-detail .meal-description .content .description-container .description p {
+
+}
+
+.meal-detail .meal-description .content .description-container .description p > span {
+    color: #78be4d;
+    cursor: pointer;
+}
+
+.meal-detail .meal-description .content .info-container {
+    display: inline-table;
+    width: 120px;
+    text-align: center;
+}
+
+.meal-detail .meal-description .content .info-container img.avatar {
+    width: 100%;
+    max-width: 80px;
+}
+
+.meal-detail .meal-description .content .info-container .name {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.meal-detail .meal-description .food-list {
+
+}
+
+.meal-detail .meal-description .food-list .list {
+    width: 100%;
+    display: inline-table;
+}
+
+.meal-detail .meal-description .food-list .list .food {
+    display: inline-table;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+}
+
+.meal-detail .meal-description .food-list .list .food img {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 5px;
+    object-fit: cover;
+}
+
+.meal-detail .meal-description .food-list .list .food p {
+
+}
+
+.meal-detail .meal-description .utilities {
+    width: 100%;
+}
+
+.meal-detail .meal-description .utilities .util-list {
+    display: inline-table;
+    width: 100%;
+}
+
+.meal-detail .meal-description .utilities .util-list .util {
+    display: inline-table;
+    width: 25%;
+    padding: 5px;
+}
+
+.meal-detail .meal-description .utilities .util-list .util img {
+    width: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-description .utilities .util-list .util span {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-description .pic-travel {
+
+}
+
+.meal-detail .meal-description .pic-travel .pic-list {
+    width: 100%;
+    display: inline-table;
+}
+
+.meal-detail .meal-description .pic-travel .pic-list img.pic {
+    width: 50%;
+    padding: 5px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.meal-detail .meal-description .pic-travel .show-all {
+    font-weight: bold;
+    color: #78be4d;
+    padding: 5px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.meal-detail .meal-description .reviews {
+
+}
+
+.meal-detail .meal-description .reviews .review-count {
+
+}
+
+.meal-detail .meal-description .reviews .review-count span {
+    font-weight: bold;
+    font-size: 15px;
+    padding: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.meal-detail .meal-description .reviews .review-count ul.star-list {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.meal-detail .meal-description .reviews .review-count ul.star-list > li {
+    padding: 3px;
+}
+
+.meal-detail .meal-description .reviews .review-detail {
+    margin-bottom: 30px;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list {
+
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review {
+    padding: 10px;
+    border-bottom: 1px solid #ededed;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .user {
+    margin-bottom: 10px;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .user .avatar {
+    width: 60px;
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .user .avatar > img {
+    width: 100%;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .user .user-info {
+    display: inline-table;
+    width: calc(100% - 64px);
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .user .user-info .nickname {
+    margin: 0;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .user .user-info .hour-review {
+    margin: 0;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .content {
+    width: 100%;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .content > p {
+    width: 100%;
+    display: table;
+    margin: 0;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-list .review .content > p > span {
+    color: #78be4d;
+    cursor: pointer;
+}
+
+.meal-detail .meal-description .reviews .review-detail .review-page {
+    margin: 20px 0;
+}
+
+.meal-detail .meal-suggests {
+
+}
+
+.meal-detail .meal-suggests {
+
+}
+
+.meal-detail .meal-suggests .suggest-list {
+    margin-bottom: 30px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest {
+    padding-bottom: 10px;
+    margin: 0 10px 10px 10px;
+    box-shadow: 5px 5px 10px #eaeaea;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest img.picture {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .title p {
+    font-weight: bold;
+    margin: 10px 5px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .avatar {
+    width: 60px;
+    display: inline-table;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .avatar > img {
+    width: 100%;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .content {
+    width: calc(100% - 69px);
+    display: inline-table;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .content .nickname {
+    margin: 0;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .content .place {
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .content .place > img {
+    width: 17px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .info .content .place .title {
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .description {
+    margin: 5px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .sub {
+    padding: 0 10px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .sub .container {
+    list-style-type: none;
+    padding: 0px;
+    margin: 5px;
+    display: inline-flex;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .sub .container .price {
+    width: 33%; /* padding-right: 5px; */
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .sub .container .price > img {
+    width: 14px;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .sub .container .price > span {
+    color: black;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews {
+    padding: 0 10px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .rate {
+    width: 50%;
+    display: inline-table;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .rate .star-list {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 5px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .rate .star-list > li {
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal {
+    width: calc(50% - 4px);
+    display: inline-table;
+    vertical-align: middle;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal .morning {
+    background: #ffdbdb;
+    width: 31%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 100px;
+    height: 25px;
+    margin-right: 2px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal .morning > img {
+    width: 36%;
+    vertical-align: middle;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    min-width: 17px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal .lunch {
+    width: 30%;
+    display: inline-block;
+    background: #4CAF50;
+    text-align: center;
+    height: 100%;
+    border-radius: 100px;
+    height: 25px;
+    margin-right: 2px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal .lunch > img {
+    width: 24%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    min-width: 13px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal .night {
+    display: inline-block;
+    width: 30%;
+    background: #ededed;
+    text-align: center;
+    border-radius: 100px;
+    height: 25px;
+}
+
+.meal-detail .meal-suggests .suggest-list .suggest .reviews .meal .night > img {
+    vertical-align: middle;
+    height: 100%;
+    width: 23%;
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    min-width: 13px;
+}
+
+.meal-detail .meal-price {
+}
+
+.meal-detail .meal-price .container {
+    position: sticky;
+    z-index: 97;
+    top: 75px;
+    border-top: 4px solid #78be4d;
+    /* border-radius: 4px; */
+    padding: 20px;
+    box-shadow: 0px 5px 5px rgb(173, 173, 173);
+    max-width: 100%;
+    margin: auto;
+}
+
+.meal-detail .meal-price .container .price {
+    display: table;
+}
+
+.meal-detail .meal-price .container .price > p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 18px; /* display: inline-table; */
+}
+
+.meal-detail .meal-price .container .rate {
+    display: table;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.meal-detail .meal-price .container .rate .star-list {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.meal-detail .meal-price .container .rate .star-list > li {
+    margin-left: 5px;
+}
+
+.meal-detail .meal-price .container .rate > span {
+}
+
+.meal-detail .meal-price .container .form {
+}
+
+.meal-detail .meal-price .container .form .time {
+    margin-bottom: 10px;
+}
+
+.meal-detail .meal-price .container .form .time label {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.meal-detail .meal-price .container .form .time > .control {
+    padding: 2px;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+}
+
+.meal-detail .meal-price .container .form .time > .control input {
+    width: calc(100% - 44px);
+    border: 0;
+}
+
+.meal-detail .meal-price .container .form .time > .control > i {
+    width: 40px;
+    text-align: center;
+    height: 100%;
+    color: #c3c3c3;
+}
+
+.meal-detail .meal-price .container .form .guest {
+    margin-bottom: 10px;
+}
+
+.meal-detail .meal-price .container .form .guest label {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-detail .meal-price .container .form .guest input {
+    width: 100%;
+}
+
+.meal-detail .meal-price .container .form .guest .dropdown{
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.dropdown-menu {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 0;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.dropdown-menu .onerow{
+    border: 1px solid #ededed;
+    padding: 10px;
+    margin-bottom: 5px;
+    position: relative;
+
+}
+
+
+.dropdown-menu .onerow .left-text{
+    display: inline-block;
+}
+
+.dropdown-menu .onerow .right-control{
+    display: inline-block;
+    float: right;
+}
+
+.dropdown-menu .onerow .right-control .result{
+    width: 25px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.dropdown-menu .onerow .right-control .minus{
+    display: inline-block;
+    width: 25px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    background: #0a7d43;
+    height: 25px;
+    line-height: 27px;
+}
+
+.dropdown-menu .onerow .right-control .plus{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    color: white;
+    text-align: center;
+    background: #0a7d43;
+    vertical-align: middle;
+    line-height: 27px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .meal-detail .meal-description .utilities .util-list .util {
+        width: 33.33333%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .meal-detail .meal-description .food-list .list .food img {
+        height: 90px;
+
+    }
+
+    .meal-detail .meal-description .pic-travel .pic-list img.pic {
+        height: 200px;
+    }
+
+    .meal-detail .meal-description .utilities .util-list .util {
+        width: 50%;
+    }
+
+    .meal-detail .meal-price {
+        position: fixed;
+        top: 49px;
+        background: white;
+        z-index: 99;
+        max-width: 100%;
+        padding: 0;
+        width: 100%;
+        left: 0;
+    }
+}
+

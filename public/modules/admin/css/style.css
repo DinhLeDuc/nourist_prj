@@ -1,0 +1,76 @@
+.div-hide {
+    display: none;
+}
+.text-topbar {
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.left-side-menu {
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+#sidebar-menu .menu-title {
+    font-size: 14px;
+    padding-top: 0;
+}
+input.error,
+select.error {
+    border: 1px solid red;
+}
+label.error {
+    color: red;
+    font-weight: normal;
+    font-size: 13px;
+}
+/* Start: pagination */
+.pagination {
+    margin-top: 30px;
+    padding-left: 2px;
+}
+.pagination li a,
+.pagination li span {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+.pagination li a {
+    color: #007bff;
+}
+.pagination li a:hover,
+.pagination li.active span {
+    background: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+}
+/* End: pagination */
+
+.tbl-img-avatar {
+    width: 35px;
+    height: 35px;
+}
+.btn-action {
+    width: 40px;
+    text-align: center;
+    padding: 4px 0;
+}
+.btn-search {
+    margin-top: 27px;
+}
+table .avatar_preview {
+    width: 200px;
+}
+table .avatar_preview img {
+    width: 100%;
+}
+.upload-img-item .avatar_preview {
+    width: 200px;
+}
+.upload-img-item .avatar_preview img {
+    width: 100%;
+}
